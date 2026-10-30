@@ -1,0 +1,15 @@
+{
+  "name": "applywise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack job application tracker built with Node.js and SQLite",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  }
+}
